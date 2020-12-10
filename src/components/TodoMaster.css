@@ -1,0 +1,39 @@
+.headers,
+.inputFields,
+.todoLists,
+.buttons {
+  display: flex;
+  text-align: center;
+  margin-top: 50px;
+  max-width: auto;
+  color: white;
+  justify-content: space-around;
+}
+
+.inputOne,
+.inputTwo {
+  border: none;
+  text-align: center;
+  border-radius: 1rem;
+}
+
+button {
+  display: inline-block;
+  padding: 0.35em 1.2em;
+  border: 0.1em solid #ffffff;
+  margin: 0 0.3em 0.3em 0;
+  border-radius: 0.12em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  color: #a576ca;
+  background-color: white;
+  text-align: center;
+  transition: all 0.2s;
+}
+
+button:hover {
+  color: #e72687;
+  background-color: #641919;
+}
